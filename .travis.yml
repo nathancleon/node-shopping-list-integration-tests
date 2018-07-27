@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HR9R/pElzhVEy2tDQYf1abX+ryQufMayecgJlhTfo0CYQPjThbf9CqHwUkd3troBQT6kDvu4GVfHdNWZM47gYsJNqgAoZ28+m5K4tb9afMl1be8+FfU0GWxLnxDQOopBbZCxdmX/kJnPMAq3ZmU9nGnGRSetOM6QJZhYXiROSmOrkMhGdEMn1y/mhicCaMSN58WKKvAQjLdZdXerQ+9bH5ibGewOMQcheoYF6aGb9/x2oQpNC5UOIDRWYrOhmnCYve+n/aHUnez9FCoFPm2TrnD+UravUHsKFt1HzHzzwK6fcKNNoioHVsr1J6I7chgb9HP5l4YIt3gnxI9V/2rnTG6u9jCCBeZaKswkadbDRbC307UD5ovy0LyjUDK6XRhNz4lsAgjczs5sYjQHkjNb1LK5UqCmTIRAYci1IIniQv54aRybs8qjL/6KwCt6jeTs7Tj2vw79VcretLfRt0XH9BwGAX1REoU7T5V7CNtP5wVB7kKf/n77xsj0q3ne0vZv4hExnIb+oVblL1oktF5hJFnRuIlhbz/z2XmCaSQd6qFaFiVWnjiTmIhpT9Dh2FRYYfEnyFVzt8RhktIuXbA0SJXkW4Eqndn/YGmUnc7gPaV31vPQ8dI/PUtqSehD//yBmDLACe9fVkih2mkaHyOFhE8VfOk5IdF1O3+f/aygmjw=
+  app: thawing-wave-97651
+  on:
+    repo: nathancleon/node-shopping-list-integration-tests
